@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.andrewwhitehead.soundapp.approval_screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/aww_disappointment"
+                    android:layout_width="600dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/awww"
+                    android:text="Awww"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/disgusted_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/iamdisgusted"
+                    android:text="I am disgusted"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/failure_disappointment"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/ssb"
+                    android:text="Failure"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/really_n"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/vinelogo"
+                    android:text="Really"
+                    android:textSize="25dp"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/STFD"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/kevhart"
+                    android:text="Sit the f*** down"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/im_out_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/ftsio" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/time_to_stop_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/franktimestop"
+                    android:text="It's time to stop"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/oh_my_god_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/vinelogo"
+                    android:text="Oh my god"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Back"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

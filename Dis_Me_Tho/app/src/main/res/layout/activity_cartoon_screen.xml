@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.andrewwhitehead.soundapp.approval_screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/tv_off"
+                    android:layout_width="600dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/tto"
+                    android:text="Tv Turn Off"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/wah_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/computerfacepalm"
+                    android:text="wah wah wah"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/mr_turner"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/ttdad"
+                    android:text="If I had one"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/goofy_yell"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/goofypic"
+                    android:text="Goofy Yell"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/puss_in_boots_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/pussinboots"
+                    android:text="ooooo"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/genie_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/genie"
+                    android:text="conquering hero (Genie)"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/subaluwa_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/ededdneddypic"
+                    android:text="Ed Edd n Eddy"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/doodlebob_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/doodlebobpic"
+                    android:text="Doodlebob"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Back"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

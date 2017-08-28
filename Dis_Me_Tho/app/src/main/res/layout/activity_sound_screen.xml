@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.andrewwhitehead.soundapp.soundScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/approval_button"
+                    android:layout_width="600dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/transparent"
+                    android:text="Approval >"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/anger_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/transparent"
+                    android:text="Anger >"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/cartoon_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/transparent"
+                    android:text="Cartoon >"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/disappointment_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/transparent"
+                    android:text="Disappointment >"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/scream_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/transparent"
+                    android:text="Screams >"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/shock_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/transparent"
+                    android:text="Shock >"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/random_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/transparent"
+                    android:text="Random >"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

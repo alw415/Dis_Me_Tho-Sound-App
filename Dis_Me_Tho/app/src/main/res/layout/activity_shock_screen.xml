@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.andrewwhitehead.soundapp.approval_screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/no"
+                    android:layout_width="600dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/vinelogo"
+                    android:text="No N****"
+                    android:textSize="25dp"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/hell_naw"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/hellnaw"
+                    android:text="Hell Naw"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/jon_tron_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/jontron"
+                    android:text="JonTron"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/supa_hot_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/supahotfire"
+                    android:text="OHHHHH"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/oh_shh_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/ostrich"
+                    android:text="oh s***"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/record_scratch_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/recordscratch"
+                    android:text="Record Scratch"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/chief_keef_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/chiefkeef"
+                    android:text="The beat go off"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/triggered_button"
+                    android:layout_width="400dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/triggered" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Back"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
